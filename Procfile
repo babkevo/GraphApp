@@ -1,1 +1,1 @@
-graph: python main.py
+web: gunicorn main:server
