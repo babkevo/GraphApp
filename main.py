@@ -1,6 +1,10 @@
+import dash
 import PySimpleGUI as sg
 import matplotlib
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
+app = dash.Dash(__name__)
+server = app.server
 
 def update_figure(data):
     axes = fig.axes
