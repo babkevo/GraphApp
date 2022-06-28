@@ -1,1 +1,1 @@
-worker: python main.py
+graph: python main.py
